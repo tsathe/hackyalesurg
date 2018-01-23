@@ -44,7 +44,13 @@ body {
 }
 
 .overlay .main-img img {
-  max-height: 20rem;
+  max-height: 0rem;
+}
+
+@media (min-width: 768px) {
+  .overlay .main-img img {
+    max-height: 20rem;
+  }
 }
 
 .masthead {
