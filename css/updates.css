@@ -88,6 +88,7 @@ body {
 
 .masthead .logo {
   padding-top: 2rem;
+  max-height: 10rem;
 }
 
 @media (min-width: 768px) {
