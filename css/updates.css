@@ -91,7 +91,7 @@ body {
 }
 
 .masthead .logo img {
-  max-height: 2rem;
+  max-height: 6rem;
 }
 
 @media (min-width: 768px) {
