@@ -8,14 +8,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Merriweather';
+  font-family: 'Oswald';
   font-weight: 700;
 }
 
 body {
   height: 100%;
   position: relative;
-  font-family: 'Source Sans Pro';
+  font-family: 'Oswald';
   font-weight: 300;
 }
 
