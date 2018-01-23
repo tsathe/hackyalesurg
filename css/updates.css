@@ -40,6 +40,9 @@ body {
 
 .overlay .main-img {
   padding-top: 6rem;
+}
+
+.overlay .main-img img {
   max-height: 8rem;
 }
 
