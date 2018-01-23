@@ -188,8 +188,6 @@ body {
 .btn-secondary {
   background-color: #BE2A2A;
   border-color: #BE2A2A;
-  padding-left: 2rem;
-  padding-top: 1rem;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
