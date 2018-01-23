@@ -185,6 +185,16 @@ body {
   }
 }
 
+.btn {
+  background-color: #BE2A2A;
+  border-color: #BE2A2A;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+  background-color: #ba7c37 !important;
+  border-color: #ba7c37 !important;
+}
+
 .btn-secondary {
   background-color: #BE2A2A;
   border-color: #BE2A2A;
