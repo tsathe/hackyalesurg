@@ -24,9 +24,6 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #cd9557;
-  opacity: 0.75;
-  z-index: -1;
   background-image: url("../img/bg-surgery.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -34,7 +31,10 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  /*background-color: #cd9557;*/
+  opacity: 0.75;
+  z-index: -1;
 }
 
 .masthead {
