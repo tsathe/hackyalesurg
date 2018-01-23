@@ -88,6 +88,9 @@ body {
 
 .masthead .logo {
   padding-top: 2rem;
+}
+
+.masthead .logo <img {
   max-height: 10rem;
 }
 
