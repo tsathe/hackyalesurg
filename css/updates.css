@@ -40,6 +40,7 @@ body {
 
 .overlay .main-img {
   padding-top: 6rem;
+  max-height: 8rem;
 }
 
 .masthead {
@@ -91,7 +92,7 @@ body {
 }
 
 .masthead .logo img {
-  max-height: 6rem;
+  max-height: 8rem;
 }
 
 @media (min-width: 768px) {
