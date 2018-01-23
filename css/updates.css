@@ -19,16 +19,6 @@ body {
   font-weight: 300;
 }
 
-.masthead-bg {
-  background-image: url("../img/bg-surgery.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-}
 
 .overlay {
   position: absolute;
@@ -37,6 +27,14 @@ body {
   background-color: #cd9557;
   opacity: 0.75;
   z-index: -1;
+  background-image: url("../img/bg-surgery.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 }
 
 .masthead {
