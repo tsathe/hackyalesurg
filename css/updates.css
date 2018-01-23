@@ -50,7 +50,7 @@ body {
 
 @media (min-width: 768px) {
   .overlay .main-img img {
-    max-height: 20rem;
+    max-height: 25rem;
   }
 }
 
