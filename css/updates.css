@@ -33,8 +33,12 @@ body {
   -o-background-size: cover;
   background-size: cover;
   /*background-color: #cd9557;*/
-  opacity: 0.75;
+  /*opacity: 0.75;*/
   z-index: -1;
+}
+
+.overlay .main-img {
+  padding-top: 6rem;
 }
 
 .masthead {
