@@ -23,8 +23,8 @@ body {
 .overlay {
   position: absolute;
   height: 100%;
-  width: 100%;
-  background-image: url("../img/bg-surgery.jpg");
+  /*width: 100%;*/
+  background-image: url("../img/bg-surgery-small.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
