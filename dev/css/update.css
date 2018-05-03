@@ -342,3 +342,8 @@ img::-moz-selection {
     font-size: 22px;
   }
 }
+
+#portfolio img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+}
