@@ -57,7 +57,7 @@ a:focus, a:hover {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: #37474f;
 }
 
 #mainNav .navbar-toggler {
@@ -107,7 +107,7 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
+    background: #37474f;
   }
   #mainNav .nav-link.active {
     outline: none;
@@ -189,7 +189,7 @@ a:focus, a:hover {
 .download-section {
   color: white;
   background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
+  background-color: #37474f;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
