@@ -145,6 +145,7 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .intro-text {
+  text-align: left
   font-size: 18px;
 }
 
