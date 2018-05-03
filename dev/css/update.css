@@ -43,12 +43,12 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #03a9f4;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #03A9F4;
 }
 
 #mainNav {
@@ -126,6 +126,7 @@ a:focus, a:hover {
   text-align: center;
   color: white;
   /* background: url("../img/intro-bg.jpg") no-repeat bottom center scroll; */
+  background-image: none;
   background-color: #03A9F4;
   -webkit-background-size: cover;
   -moz-background-size: cover;
