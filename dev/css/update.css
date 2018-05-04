@@ -411,7 +411,7 @@ input:focus {
     color: #fafafa;
 }
 
--webkit-appearance:none;
+
 
 @media (min-width: 768px) {
   input, textarea{
@@ -459,4 +459,8 @@ select.form-control:focus {
   background: transparent;
   border-bottom: 1px solid #ffffff;
   color: #ffffff
+}
+
+select {
+  -webkit-appearance:none;
 }
