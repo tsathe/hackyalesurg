@@ -411,6 +411,8 @@ input:focus {
     color: #fafafa;
 }
 
+-webkit-appearance:none;
+
 @media (min-width: 768px) {
   input, textarea{
       font-size: 24pt;
