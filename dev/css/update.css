@@ -387,6 +387,7 @@ img::-moz-selection {
 
 input, textarea{
     color: #FFF;
+    outline:none;
 }
 
 input:focus {
