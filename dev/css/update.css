@@ -172,6 +172,10 @@ a:focus, a:hover {
     font-size: 22px;
     text-align: left;
   }
+
+  .masthead .col-form-label-lg {
+    font-size: 48pt;
+  }
 }
 
 .btn-circle {
