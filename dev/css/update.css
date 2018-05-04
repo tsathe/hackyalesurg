@@ -245,17 +245,18 @@ a:focus, a:hover {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   border-radius: 0;
+  font-size: 24pt;
+  padding: 20px 15px;
 }
 
 .btn-default {
   color: #ffffff;
   border: 1px solid #ffffff;
   background-color: transparent;
-  padding: 5px 5px;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: ffffff;
+  color: #ffffff;
   border: 1px solid #37474f;
   outline: none;
   background-color: #37474f;
