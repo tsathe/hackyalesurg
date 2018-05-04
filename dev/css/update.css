@@ -156,7 +156,7 @@ a:focus, a:hover {
 }
 
 .masthead .malign {
-  vertical-align: text-top;
+  vertical-align: middle;
 }
 
 @media (min-width: 768px) {
@@ -175,7 +175,8 @@ a:focus, a:hover {
 
   .masthead .col-form-label-lg {
     text-align: left;
-    font-size: 28pt;
+    font-size: 24pt;
+    white-space: nowrap;
   }
 
   .masthead .form-group {
