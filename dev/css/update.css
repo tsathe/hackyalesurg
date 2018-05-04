@@ -158,6 +158,7 @@ a:focus, a:hover {
 .masthead img {
   max-width: 400px;
   text-align: left;
+  display: block;
 }
 
 .masthead .malign {
