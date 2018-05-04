@@ -405,6 +405,7 @@ input[type="email"],
 select.form-control {
   background: transparent;
   border: none;
+  outline: 0;
   border-bottom: 1px solid #ffffff;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -415,10 +416,5 @@ input[type="email"]:focus,
 select.form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-}
-
-input[type="text"], textarea {
-outline: none;
-box-shadow:none !important;
-border:1px solid #ccc !important;
+  background: transparent;
 }
