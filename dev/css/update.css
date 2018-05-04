@@ -149,6 +149,10 @@ a:focus, a:hover {
   font-size: 18px;
 }
 
+.masthead h2 {
+  text-align: left;
+}
+
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
