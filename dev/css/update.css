@@ -155,6 +155,10 @@ a:focus, a:hover {
   font-weight: 300;
 }
 
+.masthead img {
+  max-width: 300px;
+}
+
 .masthead .malign {
   vertical-align: middle;
 }
