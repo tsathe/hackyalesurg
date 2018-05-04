@@ -355,3 +355,7 @@ img::-moz-selection {
    filter: grayscale(100%);
    max-width: 100px;
 }
+
+#sponsors .valign {
+  vertical-align: top;
+}
