@@ -57,7 +57,8 @@ a:focus, a:hover {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: #37474f;
+  color: #37474f;
+  background-color: #ffffff;
 }
 
 #mainNav .navbar-toggler {
@@ -127,7 +128,7 @@ a:focus, a:hover {
   color: white;
   /* background: url("../img/intro-bg.jpg") no-repeat bottom center scroll; */
   background: none;
-  background-color: #03A9F4;
+  background-color: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
