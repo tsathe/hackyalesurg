@@ -389,6 +389,10 @@ input, textarea{
     color: #FFF;
 }
 
+input:focus {
+    outline:none;
+}
+
 @media (min-width: 768px) {
   input, textarea{
       font-size: 24pt;
