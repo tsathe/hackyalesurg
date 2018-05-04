@@ -186,7 +186,7 @@ a:focus, a:hover {
 	padding-top: 15%;
 }
 
-.masthead .fa-list:hover {
+.masthead .fa .fa-list:hover {
   opacity: 0.8;
 }
 
