@@ -151,6 +151,8 @@ a:focus, a:hover {
 
 .masthead h2 {
   text-align: left;
+  font-size: 18pt;
+  font-weight: 300;
 }
 
 .masthead .m_align {
