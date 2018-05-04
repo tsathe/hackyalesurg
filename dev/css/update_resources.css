@@ -380,6 +380,12 @@ img::-moz-selection {
   color: #37474f;
 }
 
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .blurb-text {
+  padding: 10px 30px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #37474f;
+}
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 14px;
   font-weight: 600;
