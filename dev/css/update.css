@@ -165,6 +165,27 @@ a:focus, a:hover {
   vertical-align: middle;
 }
 
+.masthead ul {
+	overflow: auto;
+}
+
+.masthead ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.masthead ul li a i {
+	/* background: #205D7A; */
+	color: #fff;
+	/* width: 40px;
+	height: 40px;
+	border-radius: 20px; */
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+}
+
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
