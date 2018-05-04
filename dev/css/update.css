@@ -202,7 +202,7 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/tracks.png") no-repeat center center scroll;
   background-color: #37474f;
   -webkit-background-size: cover;
   -moz-background-size: cover;
