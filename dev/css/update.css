@@ -389,6 +389,12 @@ input, textarea{
     color: #FFF;
 }
 
+@media (min-width: 768px) {
+  input, textarea{
+      font-size: 24pt;
+  }
+}
+
 input[type="text"],
 select.form-control {
   background: transparent;
