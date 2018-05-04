@@ -393,6 +393,19 @@ input:focus {
     outline:none;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fafafa;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fafafa;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fafafa;
+}
+
 @media (min-width: 768px) {
   input, textarea{
       font-size: 24pt;
