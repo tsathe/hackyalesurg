@@ -385,6 +385,10 @@ img::-moz-selection {
   vertical-align: top;
 }
 
+input, textarea{
+    color: #FFF;
+}
+
 input[type="text"],
 select.form-control {
   background: transparent;
