@@ -181,6 +181,7 @@ a:focus, a:hover {
 
   .masthead .form-group {
     vertical-align: middle;
+    text-align: left;
   }
 }
 
