@@ -103,6 +103,7 @@ a:focus, a:hover {
     letter-spacing: 1px;
     border-bottom: none;
     background: transparent;
+    color: #37474f;
   }
   #mainNav.navbar-shrink {
     padding-top: 10px;
