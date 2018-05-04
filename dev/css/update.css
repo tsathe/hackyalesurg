@@ -395,20 +395,20 @@ input:focus {
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #fafafa;
+    color: white;
     opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #fafafa;
+    color: white;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #fafafa;
+    color: white;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #fafafa;
+    color: white;
 }
 
 
