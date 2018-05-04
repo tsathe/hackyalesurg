@@ -246,7 +246,7 @@ a:focus, a:hover {
   text-transform: uppercase;
   border-radius: 0;
   font-size: 24pt;
-  padding: 10px 20px;
+  padding: 8px 24px;
 }
 
 .btn-default {
