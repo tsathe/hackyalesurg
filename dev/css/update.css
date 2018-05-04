@@ -186,14 +186,6 @@ a:focus, a:hover {
 	padding-top: 15%;
 }
 
-/* .masthead .fa .fa-list:hover {
-  opacity: 0.8;
-} */
-
-.masthead .fa:hover {
-  opacity: 0.8;
-}
-
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
