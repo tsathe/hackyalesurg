@@ -407,6 +407,10 @@ input:focus {
     color: #fafafa;
 }
 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fafafa;
+}
+
 @media (min-width: 768px) {
   input, textarea{
       font-size: 24pt;
