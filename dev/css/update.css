@@ -177,6 +177,7 @@ a:focus, a:hover {
     text-align: left;
     font-size: 24pt;
     white-space: nowrap;
+    vertical-align: middle;
   }
 
   .masthead .form-group {
