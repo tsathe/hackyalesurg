@@ -295,7 +295,7 @@ img::-moz-selection {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(3, 169, 244, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -312,14 +312,16 @@ img::-moz-selection {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  padding: 0 15px;
+  padding: 30px 15px;
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  color: #03a9f4;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #37474f;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
