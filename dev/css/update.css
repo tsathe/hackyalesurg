@@ -177,6 +177,10 @@ a:focus, a:hover {
     text-align: left;
     font-size: 28pt;
   }
+
+  .masthead .form-group {
+    vertical-align: middle;
+  }
 }
 
 .btn-circle {
