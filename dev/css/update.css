@@ -357,5 +357,6 @@ img::-moz-selection {
 }
 
 #sponsors .valign {
+  text-align: center;
   vertical-align: top;
 }
