@@ -156,9 +156,11 @@ a:focus, a:hover {
   }
   .masthead .intro-body .brand-heading {
     font-size: 100px;
+    text-align: left;
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;
+    text-align: left;
   }
 }
 
