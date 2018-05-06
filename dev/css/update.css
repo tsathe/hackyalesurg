@@ -494,10 +494,19 @@ select {
   -webkit-appearance: none;
 }
 
-#video .embed-responsive .embed-responsive-16by9 .embed-responsive-item {
-  position: relative;
+
+#video .embed-responsive-item {
+  position: absolute;
     right: 0;
     bottom: 0;
     top: 0;
     min-width: 100%;
 }
+
+/* #video .embed-responsive .embed-responsive-16by9 .embed-responsive-item {
+  position: relative;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    min-width: 100%;
+} */
