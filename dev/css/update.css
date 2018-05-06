@@ -494,6 +494,12 @@ select {
   -webkit-appearance: none;
 }
 
+#video .container {
+  min-width: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
 #video .embed-responsive-item {
   min-width: 100%;
   margin-top: 0px;
