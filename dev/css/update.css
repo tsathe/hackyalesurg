@@ -494,17 +494,7 @@ select {
   -webkit-appearance: none;
 }
 
-#video .container {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-right: 0px;
-  padding-top: 0px;
-}
-
 #video .embed-responsive {
-  width: 100%;
-  margin-top: 0px;
   position: absolute;
     right: 0;
     bottom: 0;
