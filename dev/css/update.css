@@ -494,6 +494,10 @@ select {
   -webkit-appearance: none;
 }
 
+#video .embed-responsive .embed-responsive-16by9 {
+  padding-left: 0px;
+  padding-top: 0px;
+}
 
 #video .embed-responsive-item {
   position: absolute;
