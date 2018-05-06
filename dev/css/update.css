@@ -496,6 +496,7 @@ select {
 
 #video .container .embed-responsive {
   min-width: 100%;
+  width: 100;
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -505,6 +506,7 @@ select {
 }
 
 #video .embed-responsive-item {
+  position: absolute;
   min-width: 100%;
   margin-top: 0px;
 }
