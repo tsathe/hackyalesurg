@@ -493,3 +493,8 @@ select.form-control:focus {
 select {
   -webkit-appearance: none;
 }
+
+#video container {
+  padding-top: 0px;
+
+}
