@@ -495,7 +495,7 @@ select {
 }
 
 #video .embed-responsive {
-  position: absolute;
+  position: relative;
     right: 0;
     bottom: 0;
     min-width: 100%;
