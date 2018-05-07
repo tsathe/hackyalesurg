@@ -8,98 +8,417 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hack the OR 2018</title>
+    <title>Hack the OR @ Yale</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/coming-soon.min.css" rel="stylesheet">
-    <link href="css/updates.css" rel="stylesheet">
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/update.css" rel="stylesheet">
 
   </head>
 
-  <body>
+  <body id="page-top">
 
-    <div class="overlay">
-      <div class="row">
-        <div class="col-md-6">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Hack the
+          <span style="background-color: #03a9f4">&nbspOR&nbsp</span></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Prizes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Team</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-6 justify-content-center">
-          <div class="main-img">
-              <img src="img/logo-big.png" class="img-fluid" alt="Responsive image">
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mx-auto malign align-items-left text-align-left">
+              <img class="img-fluid" src="img/logo1.png" alt="">
+              <!-- <h1 class="brand-heading">Hack
+                <br>the <span style="background-color: #37474f">&nbspOR&nbsp</span></h1> -->
+              <!-- <h2>@ AT YALE SCHOOL OF MEDICINE<br><br><br></h2> -->
+              <p class="intro-text"><br><br>Presented by CBIT and Yale Surgery<br></p>
+              <p class="intro-text">Saturday, September 29, 2018
+              <br>300 Cedar Street, New Haven, CT</p>
+
+              <ul>
+                <li><a href="http://twitter.com/"><i class="fab fa-twitter fa-3x"></i></a></li>
+                <li><a href="http://instagram.com/"><i class="fab fa-instagram fa-3x"></i></a></li>
+                <li><a href="mailto://hackyalesurg@gmail.com"><i class="far fa-envelope fa-3x"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-6 mx-auto malign text-align-left">
+              <p>Sign up for more information:</p>
+              <form>
+                <div class="form-group row align-items-left">
+                  <div class="col-auto">
+                    <label class="col-form-label col-form-label-lg" for="exampleInputEmail1">Hi, I'm</label>
+                  </div>
+                  <div class="col-auto">
+                    <input type="text" class="form-control form-control-lg" id="inputName" aria-describedby="inputName" placeholder="Name">
+                <!-- <small id="nameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                  </div>
+                  <div class="col-auto">
+                    <label class="col-form-label col-form-label-lg" for="exampleInputEmail1">.</label>
+                  </div>
+                </div>
+
+                <div class="form-group row align-items-left">
+                  <div class="col-auto">
+                    <label class="col-form-label col-form-label-lg" for="exampleInputEmail1">My email is </label>
+                  </div>
+                  <div class="col-auto">
+                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                  <div class="col-auto">
+                    <label class="col-form-label col-form-label-lg" for="exampleInputEmail1">,</label>
+                  </div>
+                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                </div>
+
+                <div class="form-group row align-items-left">
+                  <div class="col-auto">
+                    <label class="col-form-label col-form-label-lg" for="exampleSelect1">and I'm a(n) </label>
+                  </div>
+                  <div class="col-auto">
+                    <select class="form-control form-control-lg" id="exampleSelect1">
+                      <option>Attending</option>
+                      <option>Resident</option>
+                      <option>Medical Student</option>
+                      <option>Business person</option>
+                      <option>Designer</option>
+                      <option>Engineer</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row align-items-left">
+                  <div class="col-auto">
+                    <label class="col-form-label col-form-label-lg" for="exampleSelect1">interested in being a</label>
+                  </div>
+                  <div class="col-auto">
+                    <select class="form-control form-control-lg" id="exampleSelect1">
+                      <option>participant</option>
+                      <option>mentor</option>
+                      <option>judge</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row align-items-left">
+                  <div class="col-auto">
+                    <label class="col-form-label col-form-label-lg" for="exampleSelect1">at the hackathon.</label>
+                  </div>
+
+                </div>
+                <div class="form-group row align-items-left">
+                  <p>&nbsp;&nbsp;&nbsp;</p>
+                  <button type="submit" class="btn btn-default btn-lg">LET'S GO!</button>
+                </div>
+              </form>
+
+
+
+
+            </div>
+          </div>
+          <!-- <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </header>
+
+    <!-- <section id="video">
+      <div class="container-fluid p-0">
+      <!-- 21:9 aspect ratio -->
+        <!-- <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/268233678"></iframe>
+        </div>
+      </div>
+    </section> --> -->
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-align-left">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <h2>INNOVATE. PROTOTPYE. <span style="background-color: #03a9f4; color: #ffffff">&nbspREPEAT.&nbsp</span></h2>
+            <p>A hackathon is an event in which people at all levels of training (attendings, residents, medical students), and across
+            variety of disciplines (medicine, engineering, design, etc.) come together to come up with problems in a particular field and
+            design solutions through iterative prototyping.</p>
+            <p>We want to apply this concept to the field of surgery. We believe in a one day event, teams will be able to come up with amazing  concepts that can lay the groundwork for future projects and ventures. Prototypes can be simple sketches or mock ups. The goal is to iterate and improve rapidly in a short period of time, so the prototype doesn't have to be perfect...just look at the title.</p>
+            <p>For more information, you can find additional resources <a href="resources.html">here</a>.</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="masthead">
-      <div class="masthead-bg"></div>
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-12 my-auto">
-            <div class="logo">
-              <img src="img/logo.png" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="masthead-content text-white py-5 py-md-0">
-              <h1 class="mb-3">COMING SOON</h1>
-              <p class="mb-5">This website will be ready soon! We are planning this event for September.
-                2018! Click the button to sign up for more information.</p>
-              <div class="input-group input-group-newsletter">
-                <!-- <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon"> -->
-                  <a href="https://docs.google.com/forms/d/1fQWjV68CyZ-U0BGa8J7DVZCPJ3rapmIaDrfpZrTy-FU/viewform?usp=sharing&edit_requested=true" class="btn btn-secondary">I'm Interested</a>
+    <!-- Download Section -->
+    <section id="download" class="download-section content-section  text-align-left">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <h2 style="font-weight:300; font-size: 18pt">TRACK ONE</h2>
+            <h2>DEVICE <span style="background-color: #03a9f4; color: #ffffff">&nbspDESIGN&nbsp</span></h2>
+            <p>One of the essential challenges in surgery is to design instruments that are effective, durable, biologically compatible, and practical. Whether it is making precise incisions, controlling bleeding, improving visual fields, or connecting incised tissue, there are a wide-variety of tasks that must be accomplished during an operation. In this track, we encourage participants to create novel ideas for tools that would improve outcomes for common challenges faced within the operating room.</p>
+            <p>Prize 1</p>
+          </div>
+          <div class="col-md-6 mx-auto">
+            <h2 style="font-weight:300; font-size: 18pt">TRACK TWO</h2>
+            <h2>PATIENT <span style="background-color: #03a9f4; color: #ffffff">&nbspEXPERIENCE&nbsp</span></h2>
+            <p>While a majority of focus is often spent on improving surgical technology, a key component of the surgical experience takes place outside of the operating room. From diagnosis, to admission, and ultimately follow up, the physical and emotional process of undergoing surgery is often laden with inconveniences and burdens. In this track, we encourage participants to identify and propose solutions to improve the overall patient experience with surgery.</p>
+            <p>Prize 2</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-align-left">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <h2>SCHEDULE OF <span style="background-color: #03a9f4; color: #ffffff">&nbspEVENTS&nbsp</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2 style="font-weight:300; font-size: 18pt">FRIDAY (OPTIONAL)</h2>
+            <p>7PM - Welcome - TAC Auditorium</p>
+            <p>9PM - Networking Reception - Local Venue</p>
+            <h2 style="font-weight:300; font-size: 18pt">SATURDAY</h2>
+            <p>7AM - Breakfast - TAC Lobby</p>
+            <p>8AM - Opening Remarks - TAC Auditorium</p>
+            <p>8:30AM - Problem Pitches</p>
+          </div>
+          <div class="col-md-6">
+            <p>9AM - Team Formation</p>
+            <p>9:30AM - Preliminary Idea Pitches</p>
+            <p>10AM - Hacking Begins - Harkness</p>
+            <p>12PM - Lunch - Harkness</p>
+            <p>5PM - Final Pitches - TAC Auditorium</p>
+            <p>6PM - Reception</p>
+            <p>6:30PM - Winners Announced</p>
+          </div>
+        </div>
+
+
+
+
+
+
+        <!-- <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact Start Bootstrap</h2>
+            <p>Feel free to leave us a comment on the
+              <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
+              on Start Bootstrap to give some feedback about this theme!</p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                  <i class="fa fa-google-plus fa-fw"></i>
+                  <span class="network-name">Google+</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/team/sathe.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Tejas Sathe
+                  </div>
+                  <div class="project-category text-faded">
+                    Co-Chair
+                  </div>
+                </div>
               </div>
-              <p><br>Or learn more about the event <a href="../about.html">here</a></p>
-            </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/team/swallow.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Matthew Swallow
+                  </div>
+                  <div class="project-category text-faded">
+                    Co-Chair
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/team/kristin.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Kristin Yu
+                  </div>
+                  <div class="project-category text-faded">
+                    Co-Chair
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/team/stitelman.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    David Stitelman, MD
+                  </div>
+                  <div class="project-category text-faded">
+                    Advisor
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/team/caty.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Michael Caty, MD
+                  </div>
+                  <div class="project-category text-faded">
+                    Advisor
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/team/khalid.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Ayesha Khalid, MD, MBA
+                  </div>
+                  <div class="project-category text-faded">
+                    Advisor
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
+    <!-- Sponsored Section -->
+    <section id="sponsors" class="content-section text-align-left">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <h2>POWERED BY <span style="background-color: #03a9f4; color: #ffffff">&nbspYOU&nbsp</span></h2>
+            <h2 style="font-weight:300; font-size: 18pt">AND OUR GENEROUS PARTNERS<br><br></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mx-auto text-align-center valign">
+            <img class="img-fluid" src="img/sponsors/CBIT-centered.png" alt="">
+          </div>
+          <div class="col-lg-4 mx-auto text-align-center valign">
+            <img class="img-fluid" src="img/sponsors/city.png" alt="">
+          </div>
+          <div class="col-lg-4 mx-auto text-align-center valign">
+            <img class="img-fluid" src="img/sponsors/ynhh.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Map Section -->
+    <!-- <div id="map"></div> -->
 
-
-    <div class="social-icons">
-      <ul class="list-unstyled text-center mb-0">
-        <li class="list-unstyled-item">
-          <a href="#">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </li>
-        <li class="list-unstyled-item">
-          <a href="#">
-            <i class="fa fa-facebook"></i>
-          </a>
-        </li>
-        <li class="list-unstyled-item">
-          <a href="#">
-            <i class="fa fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- <section id="team">
-    <div class="container">
-      Some text here
-    </div>
-  </section> -->
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; Hack the OR 2018</p>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/vide/jquery.vide.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Custom scripts for this template -->
-    <!-- <script src="js/coming-soon.min.js"></script> -->
+    <script src="js/grayscale.min.js"></script>
+    <script src="js/creative.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   </body>
 
