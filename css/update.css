@@ -509,7 +509,6 @@ select {
   padding-bottom: 56.25%;
   overflow: hidden;
   margin: 0;
-  max-height: 817px;
 }
 
 .embed-container iframe,
@@ -522,4 +521,5 @@ select {
   height: 100%;
   display:block;
   margin: 0;
+  vertical-align: bottom;
 }
