@@ -510,6 +510,7 @@ select {
   overflow: hidden;
   margin: 0;
   overflow-y: hidden;
+  margin-bottom: -40px;
 }
 
 .embed-container iframe,
