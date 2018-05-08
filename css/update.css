@@ -509,6 +509,7 @@ select {
   padding-bottom: 56.25%;
   overflow: hidden;
   margin: 0;
+  overflow-y: hidden;
 }
 
 .embed-container iframe,
