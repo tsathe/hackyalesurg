@@ -511,6 +511,7 @@ select {
   margin: 0;
   overflow-y: hidden;
   margin-bottom: -200px;
+  padding-bottom: -200px;
 }
 
 .embed-container iframe,
