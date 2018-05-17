@@ -10,5 +10,6 @@ $('#submit-form').on('click', function(e) {
     data: $form.serializeObject()
   }).success(
     // do something
+    print("hooray")
   );
 })
