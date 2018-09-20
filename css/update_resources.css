@@ -533,7 +533,7 @@ select {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   border-radius: 0;
-  font-size: 24pt;
+  font-size: 20pt;
   padding: 8px 24px;
   border-color: #37474f;
   border-width: 2px;
