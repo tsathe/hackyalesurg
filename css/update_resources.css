@@ -538,6 +538,11 @@ select {
   border-color: #37474f;
   border-width: 2px;
   color: #37474f;
-  width: 600px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .btn-lg {
+    width: 350px;
+  }
 }
